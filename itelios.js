@@ -25,7 +25,7 @@ $(document).ready(function () {
                     minSlides: 4,
                     maxSlides: 4,
                     responsive: true,
-                    // auto: true
+                    auto: true
                 });
             }
         }
