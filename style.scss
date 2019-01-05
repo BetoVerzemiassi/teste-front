@@ -1,0 +1,88 @@
+.bx-wrapper {
+    box-shadow: none !important;
+    .bx-viewport {
+        width: 50% !important;
+        height: auto !important;
+        margin: 0 auto;
+    }
+}
+.bx-controls-direction {
+    display: none;
+}
+
+.svg-24px {
+    width: 24px;
+    height: 24px;
+  }
+
+.myproducts {    
+    .products {
+        display: inline-block;
+        width: 280px !important;
+        height: 240px;
+        padding: 20px;
+        &:hover {
+            .goToCart {
+                display: block;
+                margin: 0 auto;
+                padding: 10px;
+                width: 200px;
+                background: none;
+                border: 1px solid #00000052;
+                font-family: 'Roboto';
+                font-weight: bold;
+                font-size: 16px;                
+            }
+        }
+        .goToCart {
+            display: none;
+            
+        }
+        .list {
+            list-style: none;
+            .titulo {
+                font-family: 'Roboto';
+                font-size: 14px;                
+                height: 130px;
+                overflow: hidden;
+                text-overflow: ellipsis; 
+            }
+            .price,
+            .paymentConditions {
+                font-family: 'Roboto';
+                font-weight: bold;
+                font-size: 13px;
+                margin-left: 40px;
+            }
+            .image {
+                position: relative;
+                left: 26%;
+                padding: 10px;
+            }
+        }       
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .products {
+        width: 220px;
+        .list {
+            .titulo {
+                padding: 0 38px;
+            }
+            .image {
+                left: 50%;
+            }
+            .price {
+                margin-left: 37px;
+            }
+        }
+        .goToCart {
+            display: block;
+            position: absolute;
+            left: 80px;
+            background: none;
+            border: 1px solid;
+        }
+    }
+}
