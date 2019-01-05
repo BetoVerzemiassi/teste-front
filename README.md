@@ -7,6 +7,9 @@
 * Pré-Processador Sass
 * bxSlider
 
+* Foi necessário subir o conteúdo do `JSON` fornecido em um servidor para realizar a requisição `ajax`
+* Site MyJSON: http://myjson.com/c2of4
+
 # Como executar
 
 * Executar o comando abaixo na raiz do projeto para compilar o CSS
